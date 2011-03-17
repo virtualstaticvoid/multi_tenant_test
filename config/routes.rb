@@ -1,4 +1,6 @@
 Multitenant1::Application.routes.draw do
+  resources :properties
+
   resources :accounts
 
   # The priority is based upon order of creation:
