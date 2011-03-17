@@ -10,11 +10,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110317111029) do
+ActiveRecord::Schema.define(:version => 20110317112405) do
 
   create_table "accounts", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "subdomain"
   end
 
   create_table "properties", :force => true do |t|
