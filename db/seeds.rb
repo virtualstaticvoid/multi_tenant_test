@@ -1,8 +1,6 @@
 
-# clean up
-Property.destroy_all
-Account.destroy_all
-
-# create stock
+# create sample subdomains
 Account.create!(:subdomain => 'test1')
 Account.create!(:subdomain => 'test2')
+
+
